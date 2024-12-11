@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Gift for Caitlin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>From Abdullatif Artan To Beloved Caitlin</h1>
+        <p class="subheader">A special Christmas gift experience</p>
+    </header>
+
+    <div class="present-section">
+        <h2>What do you want for Christmas?</h2>
+        <input type="text" id="presentInput" placeholder="Type your gift here..." />
+        <button class="btn" onclick="submitGift()">Submit <i class="fa fa-gift"></i></button>
+        <button class="btn btn-alt" onclick="showOptions()">I am not sure <i class="fa fa-question-circle"></i></button>
+
+        <div class="gift-options" id="giftOptions">
+            <div><i class="fa fa-utensils"></i> 🎁 Idk 50 Eur </div>
+            <div><i class="fa fa-snowflake"></i> 🎄 Something about christmas ?</div>
+            <div><i class="fa fa-diamond"></i> ✨ A beautiful piece of jewelry</div>
+            <div>If your option is one of these text insta or mail to artanlatif33@gmail.com :)</div>
+        </div>
+
+        <div id="displayGift"></div>
+    </div>
+
+    <footer id="footer">
+        <p>Made with <i class="fa fa-heart"></i> by Abdullatif Artan</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

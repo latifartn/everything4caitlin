@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?christmas') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('christmasgift.jpg'); background-size: cover; background-repeat: no-repeat; background-position: inherit;
+}
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.present-section {
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 180px;
+}
+.gift-options {
+    display: none;
+    margin-top: 20px;
+}
+.gift-options div {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+#displayGift {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #c0392b;
+}
+
+#presentInput{
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    border-color: blue;
+    border-style: ridge;
+}
+
+#footer{
+    color: black;
+}
